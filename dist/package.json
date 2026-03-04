@@ -1,11 +1,16 @@
 {
     "name": "@datafix/n8n-nodes-pdf2img",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A custom n8n node that converts PDF files to PNG images using the PDFium library for rendering and Sharp for image processing.",
     "license": "MIT",
     "homepage": "",
-    "keywords": ["n8n-community-node-package"],
-    "author": { "name": "DataFix B.V.", "email": "nodes@datafix.nl" },
+    "keywords": [
+        "n8n-community-node-package"
+    ],
+    "author": {
+        "name": "DataFix B.V.",
+        "email": "nodes@datafix.nl"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/datafix/n8n-nodes-pdf2img.git"
@@ -19,12 +24,16 @@
         "release": "n8n-node release",
         "prepublishOnly": "n8n-node prerelease"
     },
-    "files": ["dist"],
+    "files": [
+        "dist"
+    ],
     "n8n": {
         "n8nNodesApiVersion": 1,
         "strict": false,
         "credentials": [],
-        "nodes": ["dist/nodes/pdf2img/pdf2img.node.js"]
+        "nodes": [
+            "dist/nodes/pdf2img/pdf2img.node.js"
+        ]
     },
     "devDependencies": {
         "@n8n/node-cli": "*",
@@ -33,6 +42,11 @@
         "release-it": "^19.0.4",
         "typescript": "5.9.2"
     },
-    "peerDependencies": { "n8n-workflow": "*" },
-    "dependencies": { "@hyzyla/pdfium": "^2.1.12", "sharp": "^0.34.5" }
+    "peerDependencies": {
+        "n8n-workflow": "*"
+    },
+    "dependencies": {
+        "@hyzyla/pdfium": "^2.1.12",
+        "sharp": "^0.34.5"
+    }
 }
