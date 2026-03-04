@@ -1,7 +1,7 @@
 {
   "name": "@datafix/n8n-nodes-pdf2img",
   "version": "0.1.0",
-  "description": "",
+  "description": "A custom n8n node that converts PDF files to PNG images using the PDFium library for rendering and Sharp for image processing.",
   "license": "MIT",
   "homepage": "",
   "keywords": ["n8n-community-node-package"],
