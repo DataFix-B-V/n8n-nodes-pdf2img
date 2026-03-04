@@ -79,4 +79,4 @@ class pdf2img {
     }
 }
 exports.pdf2img = pdf2img;
-//# sourceMappingURL=pdf2img.node.js.map
+//# sourceMappingURL=Pdf2img.node.js.map
